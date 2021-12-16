@@ -8,7 +8,7 @@
 <body>
     <h3>Hotel Booling</h3>
     <form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/642/88726059/services/post.php">
-        <label for="name">Room type:</label>
+    <td> <label for="name">Room type:</label></td><td> &emsp;&emsp;&emsp;&nbsp;</td>
         <select name="Room type">
             <option value="0">--Please Select--</option>
             <option value="1">Standard</option>
@@ -16,7 +16,7 @@
             <option value="3">Deluxe</option>
             </select>
      <br><br>
-     <label for="name">Number of Guests:</label>
+     <td><label for="name">Number of Guests:</label></td><td> &nbsp;&nbsp;</td>
         <select name=">NumberGuests">
             <option value="0"selected>--Please Select--</option>
             <option value="1" >1-2</option>
@@ -25,30 +25,29 @@
             <option value="3">7-8</option>
             </select>
      <br><br>
-    <label for="name">Name:</label>
-    <input type="text" name="name" id="name"> &nbsp;&nbsp; <label for="lastname">lastname:</label> <input type="text" name="lastname" id="name">
+     <td><label for="name">Name:</label></td><td> &nbsp;&nbsp;</td>
+    <input type="text" name="name" size="20"> &nbsp;&nbsp; <label for="lastname">lastname:</label> <input type="text" name="lastname" id="name">
     <br><br>
-    <label for="mail">E-mail:</label>
+    <td><label for="mail">E-mail:</label></td><td> &nbsp;&nbsp;</td>
         <input type="email" id="mail" name="email"><br><br>
-    <label for="passwd">Amival:</label>
+        <td><label for="passwd">Amival:</label></td><td> &nbsp;&nbsp;</td>
         <input type="date" name="arrivaldate" max="3000-12-31"> &nbsp;&nbsp; 
         <input type="time" name="arrivaltime">
         <br><br>
-    <label for="passwd">Departure:</label>
+        <td><label for="passwd">Departure:</label></td><td> &nbsp;&nbsp;</td>
     <input type="date" name="departuredate" max="3000-12-31"> &nbsp;&nbsp; 
         <input type="time" name="departuretime"> 
         <br><br>
-    <label for="sex">Free Pickup:</label>
-    <input type="radio" name="pickup" id="" value="Yes">= Yes
-    <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <input type="radio" name="pickup" id="" value="No">= No
+        <td><label for="sex">Free Pickup:</label></td><td> &nbsp;&nbsp;&nbsp;</td>
+    <input type="radio" name="pickup" id="" value="Yes">= Yes, Sure!
+    <br> <td>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;</td>
+    <input type="radio" name="pickup" id="" value="No">= No, I alread rented a car.
      <br><br>
-     <label for="name">Flight Number:</label>
+     <label for="name">Flight Number:</label></td><td> &nbsp;&nbsp;</td>
     <input type="text" name="Flightnum" id="name">
     <br><br>
-     Other requests:
-   <Textarea name="commmet" id="comment" rows="5" cols="50"></Textarea>
+    <label for="name">Other requests:</label></td><td> &nbsp;&nbsp;</td>
+   <Textarea name="commmet" id="comment" rows="10" cols="30"></Textarea>
    <br><br>
    <input type="submit" value="Send">
    <input type="reset" value="Clear">
